@@ -57,6 +57,7 @@ export const FileTreeList: React.FC<Props> = ({ data, onReplaceItem, onDeleteIte
 		if (contextMenu === null) return;
 
 		onDeleteItem(contextMenu.itemPath);
+		handleContextClose();
 	};
 
 	const handleContextAction = (action: 'cut' | 'paste' | 'delete') => {
