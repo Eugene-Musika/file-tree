@@ -1,0 +1,14 @@
+[
+	{
+		"name": "John",
+		"photo": "https://randomuser.me/api/portraits/men/1.jpg"
+	},
+	{
+		"name": "Andrew",
+		"photo": "https://randomuser.me/api/portraits/men/2.jpg"
+	},
+	{
+		"name": "Guest",
+		"photo": "https://randomuser.me/api/portraits/men/3.jpg"
+	}
+]

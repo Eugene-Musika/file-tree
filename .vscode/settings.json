@@ -1,0 +1,186 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"workbench.iconTheme": "vscode-icons",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "never",
+		"source.fixAll.stylelint": "never"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"vsicons.projectDetection.autoReload": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit",
+			"source.fixAll.stylelint": "explicit"
+		}
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"search.exclude": {
+		"**/bower_components": true,
+		"**/node_modules": true,
+		"app/**/icomoon/selection.json": true,
+		"build": true,
+		"dist": true,
+		"**/*.svg": true,
+		"Icon*": true,
+		"package-lock.json": true,
+		".eslintcache": true
+	},
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		".hg": true,
+		"build": true,
+		"dist": true,
+		"app/**/icomoon/selection.json": true,
+		"Icon*": true,
+		"package-lock.json": true,
+		".eslintcache": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"build": true,
+		"dist": true,
+		"Icon*": true,
+		".eslintcache": true
+	},
+	"editor.rulers": [100],
+	"typescript.implementationsCodeLens.enabled": true,
+	"cSpell.words": [
+		"barcode",
+		"browserslist",
+		"builtins",
+		"Cloudflare",
+		"csstype",
+		"easings",
+		"emojione",
+		"enterkeyhint",
+		"entrypoint",
+		"favicons",
+		"fnames",
+		"formatjs",
+		"hocs",
+		"hotjar",
+		"iphone",
+		"keep",
+		"luxon",
+		"millis",
+		"mozactionhint",
+		"MZFK",
+		"precache",
+		"preconnect",
+		"reduxjs",
+		"regexes",
+		"rerender",
+		"shortname",
+		"solidpay",
+		"splitted",
+		"to",
+		"unauthorized",
+		"unlisten",
+		"unlogged",
+		"unpromisify"
+	],
+	"javascript.suggest.names": false,
+	"editor.wordWrap": "bounded",
+	"editor.wordWrapColumn": 100,
+	"gutterpreview.paths": {
+		"~assets": "/app/assets"
+	},
+	"commentAnchors.workspace.excludeFiles": "**/{node_modules,.git,.idea,target,out,build,vendor,flow-typed,.json,.conf,.htaccess,build}/**/*",
+	"javascript.validate.enable": false,
+	"cSpell.ignoreWords": [
+		"Lifecycle",
+		"anticon",
+		"appinstalled",
+		"beforeinstallprompt",
+		"boleto",
+		"card",
+		"chunkname",
+		"clearfix",
+		"contact",
+		"corejs",
+		"csstype",
+		"denylist",
+		"descript",
+		"fallback",
+		"favoriteme",
+		"fixes",
+		"flexbugs",
+		"flowtypes",
+		"htaccess",
+		"immer",
+		"mimetype",
+		"navigate",
+		"pageview",
+		"pageviews",
+		"pathinfo",
+		"postcss",
+		"preload",
+		"purgecss",
+		"signedpay",
+		"svgr",
+		"viewbox",
+		"yandexbrowser"
+	],
+	"javascript.preferences.importModuleSpecifierEnding": "minimal",
+	"typescript.preferences.importModuleSpecifierEnding": "minimal",
+	"eslint.workingDirectories": [
+		{
+			"mode": "auto"
+		}
+	],
+	"emmet.showExpandedAbbreviation": "never",
+	"auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript", "typescriptreact"],
+	"editor.linkedEditing": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "modifications",
+	"eslint.codeActionsOnSave.mode": "problems",
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+	"eslint.options": {
+		"cache": true
+	},
+	"colorize.languages": ["typescript", "typescriptreact"],
+	"jest.jestCommandLine": "npm test --",
+	"sort-imports.on-save": true,
+	"stylelint.validate": ["css", "less", "postcss", "tsx"],
+	"stylelint.configFile": ".stylelintrc",
+	"stylelint.reportInvalidScopeDisables": true,
+	"stylelint.reportNeedlessDisables": true,
+	"stylelint.snippet": ["css", "less", "postcss", "tsx"],
+	"hungryDelete.considerIncreaseIndentPattern": true,
+	"[javascript][typescript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		}
+	},
+	"prettier.prettierPath": "./node_modules/prettier/index.cjs",
+	"testing.openTesting": "neverOpen",
+	"jest.runMode": "on-demand",
+}

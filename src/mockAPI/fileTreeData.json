@@ -1,0 +1,82 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"name": "folder",
+			"type": "FOLDER",
+			"children": [
+				{
+					"id": 2,
+					"name": "folder1",
+					"type": "FOLDER",
+					"children": [
+						{
+							"id": 3,
+							"name": "file1",
+							"type": "FILE"
+						},
+						{
+							"id": 13,
+							"name": "file2",
+							"type": "FILE"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "folder2",
+					"type": "FOLDER",
+					"children": [
+						{
+							"id": 5,
+							"name": "file2",
+							"type": "FILE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "file3",
+			"type": "FILE"
+		},
+		{
+			"id": 7,
+			"name": "file4",
+			"type": "FILE"
+		},
+		{
+			"id": 8,
+			"name": "folder3",
+			"type": "FOLDER",
+			"children": []
+		},
+		{
+			"id": 9,
+			"name": "John's files",
+			"allowed": ["John"],
+			"type": "FOLDER",
+			"children": [
+				{
+					"id": 10,
+					"name": "file5",
+					"type": "FILE"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Andrew's files",
+			"allowed": ["Andrew"],
+			"type": "FOLDER",
+			"children": [
+				{
+					"id": 12,
+					"name": "file5",
+					"type": "FILE"
+				}
+			]
+		}
+	]
+}
